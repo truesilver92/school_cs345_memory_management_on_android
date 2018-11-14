@@ -1,0 +1,30 @@
+#+AUTHORS Thomas Niedfeldt, Joel Stoker
+* find resources/sources
+** maybe include stuff from the code, maybe key functions
+** key ideas
+   - We want the algorithms and terms used for the style of mm that
+     android does.
+     - Why methods were chosen?
+       - "We chose this way because..."
+** ART vs Dalvik java vm's
+** how is paging done?
+*** size?
+*** number?
+*** depth?
+** how does the garbage collector play into in
+** The root process "Zygote"
+** what happens on app switch?
+*** what happens onCreate?
+*** onStart?
+*** onPause?
+*** onResume?
+*** onStop?
+*** onDestroy?
+** the os asks for memory back, explain how this is handled/works
+** SOC handling of the Von Neumann bottleneck
+* sources
+** [[https://developer.android.com/topic/performance/memory-overview][Overview of memory management]]
+** [[https://developer.android.com/topic/performance/memory#kotlin][Manage your app's memory]]
+*** probably focus on section "Release memory in response to events"
+** [[https://mobworld.wordpress.com/2010/07/05/memory-management-in-android/][blog on memory management in Android]]
+** [[https://www.androidauthority.com/what-is-cache-memory-gary-explains-681747/][cache memory and the Von Neumann bottleneck]]
